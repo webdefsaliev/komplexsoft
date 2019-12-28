@@ -1,0 +1,47 @@
+.hidden-mobile
+	display: block
+.slider-arrow
+	position: absolute
+	top: 0
+	z-index: 2
+	height: 100%
+	width: 22px
+	border: 1px solid $active-color-dark
+	&:hover
+		cursor: pointer
+	&_right
+		&:hover
+			background: $active-color-dark url(../img/main/active-right.png) center no-repeat
+		right: 0
+		background: $active-color-dark url(../img/main/right.png) center no-repeat
+	&_left
+		&:hover
+			background: $active-color-dark url(../img/main/active-left.png) center no-repeat
+		left: 0
+		background: $active-color-dark url(../img/main/left.png) center no-repeat
+	&_reviews
+		&_right
+			&:hover
+				background: $active-color-dark url(../img/reviews/right.png) center no-repeat
+				opacity: 0.7
+			right: 0
+			background: $active-color-dark url(../img/reviews/right.png) center no-repeat
+		&_left
+			&:hover
+				background: $active-color-dark url(../img/reviews/left.png) center no-repeat
+				opacity: 0.7
+			left: 0
+			background: $active-color-dark url(../img/reviews/left.png) center no-repeat
+.slick-slide
+	&:focus
+		outline: none
+.section-title
+	font-size: 30px
+	font-family: $font-medium
+	text-align: center
+	text-transform: uppercase
+	margin-bottom: 25px
+	span
+		color: #ff1844
+.line
+	border: 0.5px solid #4c4c4c
